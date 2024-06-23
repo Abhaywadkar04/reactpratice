@@ -1,7 +1,7 @@
 import React ,{useId} from 'react'
 
 
-function InputBox({
+function Inputbox({
     label,amount,onAmountChange,onCurrencyChange,
     currencyOptions=[],
     selectCurrency="inr",
@@ -50,4 +50,4 @@ function InputBox({
     );
 }
 
-export default InputBox;
+export default Inputbox;
